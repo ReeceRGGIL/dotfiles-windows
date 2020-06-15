@@ -12,8 +12,8 @@ if ! [ -x "S(command -v nvim)" ]; then
 	export VIMCONFIG=~/.config/nvim
 	export VIMDATA=~/.local/share/nvim
 	export MYVIMRC=~/.config/nvim/init.vim
-	alias vi="nvim"
-	alias vim="nvim"
+#	alias vi="nvim"
+#	alias vim="nvim"
 else
 	export VISUAl=vim
 	export VIMCONFIG=~/.vim
@@ -73,9 +73,9 @@ fi
 # \[\e[31m\]
 # )
 # \[\e[m\]
-PS1="\[\e[31m\](\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[33m\]\h\[\e[m\]\[\e[31m\]|\[\e[m\]\[\e[34m\]\$(dirs +0)\[\e[m\]\[\e[31m\])\[\e[m\] "
+#PS1="\[\e[31m\](\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[33m\]\h\[\e[m\]\[\e[31m\]|\[\e[m\]\[\e[34m\]\$(dirs +0)\[\e[m\]\[\e[31m\])\[\e[m\] "
 # Make commands and readline mode print on a new line.
-PS1="$PS1\n"
+#PS1="$PS1\n"
 
 # Run '.bash_aliases' if it exists.
 if [ -f ~/.bash_aliases ]; then
